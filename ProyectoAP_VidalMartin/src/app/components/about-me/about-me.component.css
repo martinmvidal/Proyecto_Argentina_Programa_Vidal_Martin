@@ -1,0 +1,26 @@
+div{
+    
+    text-align: center;
+    }
+.row{
+    background-color: azure;
+}
+#perfil{
+border-radius: 50%;
+position: relative;
+width: 200px;
+height: auto;
+margin-top: -50px;
+border: 3px grey;
+
+}
+#datos{
+    padding: 20px;
+    align-self: center;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#about{
+    margin-top: -40px;
+}
+
