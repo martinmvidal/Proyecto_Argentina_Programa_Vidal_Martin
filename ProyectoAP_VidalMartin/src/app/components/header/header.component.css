@@ -1,5 +1,6 @@
 div{
-    background-color: #6495ed;
+    background: linear-gradient(to bottom right,#424632,white);
+    
     border-top-left-radius: 50px;
     border-top-right-radius: 10px;
 }
