@@ -3,7 +3,7 @@ div{
     text-align: center;
     }
 .row{
-    background:linear-gradient(to top right,#424632,white);
+    background:linear-gradient(to top right,#484848,white);
     border-bottom-right-radius: 50px;
     border-top-left-radius: 10px;
 }
