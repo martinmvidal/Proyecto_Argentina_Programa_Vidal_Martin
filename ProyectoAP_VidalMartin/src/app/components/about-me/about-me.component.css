@@ -17,6 +17,7 @@ border: 3px grey;
 
 }
 #datos{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
     align-self: center;
     font-weight: bold;
