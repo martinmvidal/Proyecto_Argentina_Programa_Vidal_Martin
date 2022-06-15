@@ -1,16 +1,22 @@
-div{
+.head{
     background: linear-gradient(to bottom right,#484848,white);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-top-left-radius: 50px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 50px;
+    
 }
 app-redes{
     float: right;
-    margin-top: 60px;
+       
+    margin-bottom: 20px;
 }
 app-banner{
-    width:max-content;
+    width:auto;
     
+
+}
+app-logo{
+position: relative;
 
 }

@@ -1,6 +1,7 @@
 .card{
     border-radius: 30px;
     align-self: center;
+    width: auto;
 }
 .row{
     

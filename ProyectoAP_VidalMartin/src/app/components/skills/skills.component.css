@@ -1,0 +1,162 @@
+
+.card{
+    border-radius: 30px;
+   width: auto;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.row{
+    padding: 30px;
+}
+#skill-section{
+    width: 100%;
+    height: auto;
+    padding: 80px 13%;
+   }
+   .info p{
+       font-weight: bold;
+   }
+   .skill-main{
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(2, 5fr);
+       grid-column-gap: 50px;
+       grid-row-gap: 20px;
+
+   }
+   .skill-main .skill-bar .info{
+       display: flex;
+justify-content: space-between;
+padding: 0  10px;
+   }
+   .skill-bar .bar{
+       width: 100%;
+       height: 10px;
+       position: relative;
+       background-color: #aaa;
+       border-radius: 15px;
+       margin-top: 3px;
+
+   }
+   .skill-bar .bar:hover{
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   }
+
+   
+   .skill-bar .bar .ingles{
+    
+    background: linear-gradient(0deg, rgba(198,9,6,1) 0%, rgba(255,255,255,1) 15%, rgba(255,0,0,1) 30%, rgba(255,255,255,1) 45%, rgba(233,0,0,1) 60%, rgba(255,255,255,1) 75%, rgba(0,1,242,1) 100%);
+       position: absolute;
+       width: 85%;
+       height: 100%;
+       border-radius: 15px;
+       animation: ingles 15s;
+
+   }
+   .skill-bar .bar .html{
+    
+    background: linear-gradient(90deg, rgba(229,76,33,1) 0%, rgba(252,128,70,1) 100%);
+       position: absolute;
+       width: 80%;
+       height: 100%;
+       border-radius: 15px;
+       animation: html 15s;
+
+   }.skill-bar .bar .js{
+    
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(240,219,78,1) 50%);
+       position: absolute;
+       width: 50%;
+       height: 100%;
+       border-radius: 15px;
+       animation: js 15s;
+
+   }.skill-bar .bar .sql{
+    
+    background: linear-gradient(90deg, rgba(0,107,143,1) 25%, rgba(209,139,43,1) 75%);
+       position: absolute;
+       width: 70%;
+       height: 100%;
+       border-radius: 15px;
+       animation: sql 15s;
+
+   }.skill-bar .bar .css{
+    
+    background: linear-gradient(90deg, rgba(1,107,193,1) 0%, rgba(91,183,226,1) 100%);
+       position: absolute;
+       width: 80%;
+       height: 100%;
+       border-radius: 15px;
+       animation: css 15s;
+
+   }.skill-bar .bar .angular{
+    
+    background: linear-gradient(90deg, rgba(98,11,8,1) 26%, rgba(237,49,44,1) 94%);
+       position: absolute;
+       width: 60%;
+       height: 100%;
+       border-radius: 15px;
+       animation: angular 15s;
+
+   }.skill-bar .bar .java{
+    
+    background: linear-gradient(90deg,rgba(237,32,37,1) 25%, rgba(14,138,200,1) 75%);
+       position: absolute;
+       width: 80%;
+       height: 100%;
+       border-radius: 15px;
+       animation: java 15s;
+
+   }
+   @keyframes html {
+       0%{
+           width: 0;
+       }100%{
+           width: 80%;
+       }
+    
+   }
+   @keyframes ingles {
+    0%{
+        width: 0;
+    }100%{
+        width: 85%;
+    }
+   }
+   @keyframes css {
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+   }
+   @keyframes js {
+    0%{
+        width: 0;
+    }100%{
+        width: 50%;
+    }
+   }
+   @keyframes sql {
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+   }
+   @keyframes java {
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+   }
+   @keyframes angular {
+    0%{
+        width: 0;
+    }100%{
+        width: 60%;
+    }
+   }
