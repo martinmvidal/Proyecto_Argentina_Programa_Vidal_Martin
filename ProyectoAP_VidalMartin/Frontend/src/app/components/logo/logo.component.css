@@ -1,0 +1,22 @@
+.redes{
+    float: right;
+    justify-content: space-around;
+
+}
+   .redes img{
+    width: 30px;
+    margin: 3px;
+} 
+
+#logo{
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.container .redes img:hover{
+    width:33px;
+}

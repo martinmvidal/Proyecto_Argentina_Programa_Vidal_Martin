@@ -3,7 +3,8 @@ div{
     text-align: center;
     }
 .acerca{
-    background:linear-gradient(to top right,#484848,white);
+    background: rgb(49,187,236);
+    background: linear-gradient(55deg, rgba(49,187,236,1) 0%, rgba(43,79,198,1) 100%);
     border-bottom-right-radius: 50px;
     border-top-left-radius: 10px;
 }

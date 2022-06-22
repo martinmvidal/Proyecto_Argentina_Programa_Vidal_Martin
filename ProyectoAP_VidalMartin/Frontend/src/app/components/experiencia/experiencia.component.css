@@ -1,10 +1,12 @@
 .card{
     border-radius: 30px;
-    align-self: center;
     width: auto;
+    background: rgb(250,247,235);
+background: linear-gradient(0deg, rgba(250,247,235,0.8743872549019608) 0%, rgba(242,241,230,0.09567577030812324) 100%);
+    
 }
 .row{
-    
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
 }

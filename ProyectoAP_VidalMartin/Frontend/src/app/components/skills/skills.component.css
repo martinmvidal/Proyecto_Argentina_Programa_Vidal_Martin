@@ -2,6 +2,8 @@
 .card{
     border-radius: 30px;
    width: auto;
+   background: rgb(250,247,235);
+background: linear-gradient(0deg, rgba(250,247,235,0.8743872549019608) 0%, rgba(242,241,230,0.09567577030812324) 100%);
 }
 img{
     width: 50px;
@@ -17,6 +19,7 @@ img{
    }
    .info p{
        font-weight: bold;
+      
    }
    .skill-main{
        width: 100%;
@@ -49,7 +52,7 @@ padding: 0  10px;
     
     background: linear-gradient(0deg, rgba(198,9,6,1) 0%, rgba(255,255,255,1) 15%, rgba(255,0,0,1) 30%, rgba(255,255,255,1) 45%, rgba(233,0,0,1) 60%, rgba(255,255,255,1) 75%, rgba(0,1,242,1) 100%);
        position: absolute;
-       width: 85%;
+       width: 90%;
        height: 100%;
        border-radius: 15px;
        animation: ingles 15s;

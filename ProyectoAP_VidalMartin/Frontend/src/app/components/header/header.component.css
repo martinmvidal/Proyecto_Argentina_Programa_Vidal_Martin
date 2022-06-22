@@ -1,5 +1,6 @@
 .head{
-    background: linear-gradient(to bottom right,#484848,white);
+    background: rgb(49,187,236);
+background: linear-gradient(125deg, rgba(49,187,236,1) 0%, rgba(43,79,198,1) 100%);
     padding-left: 10px;
     padding-right: 10px;
     border-top-left-radius: 50px;

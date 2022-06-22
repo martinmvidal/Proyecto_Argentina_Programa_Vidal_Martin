@@ -1,0 +1,13 @@
+.row{
+    background: rgb(49,187,236);
+background: linear-gradient(125deg, rgba(49,187,236,1) 0%, rgba(43,79,198,1) 100%);
+border-radius: 30px;
+box-shadow: 2px -2px 5px;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    flex-direction: row;
+   
+}
